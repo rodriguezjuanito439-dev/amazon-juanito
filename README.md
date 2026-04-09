@@ -9,7 +9,7 @@
 - **Python** (Pandas, NumPy, Matplotlib, Seaborn, SciPy) — data cleaning, feature engineering, and exploratory analysis
 - **Jupyter Notebook** — analysis and documentation
 - **Power BI** — interactive dashboard and visualization
-- **Dataset:** [Amazon Products Dataset — Kaggle](https://www.kaggle.com/) (~42,000 products, collected August 2025)
+- **Dataset:** [Amazon Products Dataset — Kaggle](https://www.kaggle.com/code/mohamedasak/amazon-products-sales-eda) (~42,000 products, collected August 2025)
 
 ---
 
