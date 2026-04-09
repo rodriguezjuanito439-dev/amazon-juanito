@@ -1,14 +1,14 @@
 # Amazon Products Sales Analysis
 
-**Business objective:** Understand how pricing, discounts, and customer ratings relate to product engagement — supporting pricing and merchandising decisions for Amazon sellers.
+**Business objective:** Understand how pricing, discounts, and customer ratings relate to product engagement, supporting pricing and merchandising decisions for Amazon sellers.
 
 ---
 
 ## Tools & Technologies
 
-- **Python** (Pandas, NumPy, Matplotlib, Seaborn, SciPy) — data cleaning, feature engineering, and exploratory analysis
-- **Jupyter Notebook** — analysis and documentation
-- **Power BI** — interactive dashboard and visualization
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, SciPy) - data cleaning, feature engineering, and exploratory analysis
+- **Jupyter Notebook** - analysis and documentation
+- **Power BI** - interactive dashboard and visualization
 - **Dataset:** [Amazon Products Dataset — Kaggle](https://www.kaggle.com/code/mohamedasak/amazon-products-sales-eda) (~42,000 products, collected August 2025)
 
 ---
@@ -25,23 +25,20 @@
 ## Project Structure
 
 ```
-amazon-products-analysis/
-│
-├── Amazon_Products_Sales_Analysis_Complete.ipynb   # Full analysis notebook
-├── amazon_analysis_powerbi.csv                     # Cleaned export for Power BI
-├── amazon_dashboard.pbix                           # Power BI dashboard file
-└── README.md
+Amazon_Products_Sales_Analysis_Complete.ipynb   # Full analysis notebook
+amazon_analysis_powerbi.csv                     # Cleaned export for Power BI
+amazon_dashboard.pbix                           # Power BI dashboard file
 ```
 
 ---
 
 ## Key Findings
 
-### 1. Discounts drive reviews — but only up to a point
+### 1. Discounts drive reviews, but only up to a point
 Higher discounts correlate with more reviews, especially for budget products (<$25). The sweet spot is the **20–30% discount range**, which peaks at ~1,117 median reviews. Extreme discounts (70%+) are associated with very low engagement (~14 reviews), suggesting those products may be struggling regardless of the discount.
 
 ### 2. Higher-rated products attract significantly more reviews
-Products rated ≥4.0 average ~3,400 reviews compared to ~800 for lower-rated products. There is a modest but meaningful positive relationship (r = 0.21 on log scale) between rating and review count — quality signals drive engagement.
+Products rated ≥4.0 average ~3,400 reviews compared to ~800 for lower-rated products. There is a modest but meaningful positive relationship (r = 0.21 on log scale) between rating and review count, quality signals drive engagement.
 
 ### 3. Lower-priced products earn higher ratings
 Budget products (<$25) average a rating of 4.6, compared to 4.3 for premium products (>$200). This likely reflects higher customer expectations for expensive products, or budget products over-delivering on perceived value. Notably, 33% of low-price products have extreme ratings vs. only 12% of high-price products.
